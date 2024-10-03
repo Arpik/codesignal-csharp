@@ -66,6 +66,5 @@ class Program
         // TODO: Create a copy of the film object named filmCopy using the copy constructor and display its data
         Film filmCopy = new Film(film);
         filmCopy.Display();
-
     }
 }
