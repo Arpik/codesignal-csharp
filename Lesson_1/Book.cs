@@ -26,20 +26,20 @@ public class Book
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        // TODO: Create a Book object with title "1984" and author "George Orwell"
-        Book book = new Book("1984", "George Orwell");
+// class Program
+// {
+//     static void Main()
+//     {
+//         // TODO: Create a Book object with title "1984" and author "George Orwell"
+//         Book book = new Book("1984", "George Orwell");
         
-        // TODO: Call the 'Display' method on this object to print the details
-        book.Display();
+//         // TODO: Call the 'Display' method on this object to print the details
+//         book.Display();
         
-        // TODO: Create a copy of the first object using the copy constructor
-        Book bookCopy = new Book(book);
+//         // TODO: Create a copy of the first object using the copy constructor
+//         Book bookCopy = new Book(book);
         
-        // TODO: Call the 'Display' method on the copied object to print the details
-        bookCopy.Display();
-    }
-}
+//         // TODO: Call the 'Display' method on the copied object to print the details
+//         bookCopy.Display();
+//     }
+// }
