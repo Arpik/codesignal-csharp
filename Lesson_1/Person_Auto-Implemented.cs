@@ -1,6 +1,6 @@
 public class Person_Auto
 {
-    // TODO: Replace the private field 'name' with a public auto-implemented property
+    // Replace the private field 'name' with a public auto-implemented property
     public string Name { get; set; }
 
     // Replace the private field 'age' with a public auto-implemented property
