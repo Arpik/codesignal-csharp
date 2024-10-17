@@ -34,15 +34,15 @@ public class Item
     }
 }
 
-public class Program
-{
-    public static void Main()
-    {
-        Item item = new Item("Tablet", 150.00); // Initialize with a valid price
-        item.Name = "Laptop"; // Change name
-        item.Price = 19.99; // Try setting the price below 20.00
+// public class Program
+// {
+//     public static void Main()
+//     {
+//         Item item = new Item("Tablet", 150.00); // Initialize with a valid price
+//         item.Name = "Laptop"; // Change name
+//         item.Price = 19.99; // Try setting the price below 20.00
 
-        Console.WriteLine($"Name: {item.Name}");
-        Console.WriteLine($"Price: {item.Price}"); // Print the price to confirm it is set to 20.00
-    }
-}
+//         Console.WriteLine($"Name: {item.Name}");
+//         Console.WriteLine($"Price: {item.Price}"); // Print the price to confirm it is set to 20.00
+//     }
+// }
