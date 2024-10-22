@@ -44,6 +44,30 @@ public class GraduateStudent : Student
     {
         this.ThesisTitle = thesisTitle;
     }
-    
-    // TODO: Add a method DisplayGraduateStudent to display name, age, major, and thesisTitle
+        
+// Add a method DisplayGraduateStudent to display name, age, major, and thesisTitle
+
+    public void DisplayGraduateStudent()
+    {
+        base.DisplayStudent();
+        Console.WriteLine($"Thesis Title: {ThesisTitle}");
+    }
+}
+
+
+public class Program
+{
+    static void Main()
+    {
+        // Create an instance of GraduateStudent with the following details
+        // Name: "Alice"
+        // Age: 28
+        // Major: "Biology"
+        // ThesisTitle: "The Effect of Sunlight on Plant Growth"
+        
+        GraduateStudent graduatestudent = new GraduateStudent("Alice", 28, "Biology", "The Effect of Sunlight on Plant Growth");
+        
+        // Call the DisplayGraduateStudent method on the instance of GraduateStudent
+        graduatestudent.DisplayGraduateStudent();
+    }
 }
