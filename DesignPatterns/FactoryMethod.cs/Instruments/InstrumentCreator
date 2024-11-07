@@ -1,0 +1,23 @@
+abstract class InstrumentCreator
+{
+    public abstract Instrument CreateInstrument();
+}
+
+// Create a class named GuitarCreator that inherits from InstrumentCreator and implements the 'CreateInstrument' method.
+
+class GuitarCreator : InstrumentCreator
+{
+    public override Instrument CreateInstrument() => new Guitar();
+}
+
+// Create a class named PianoCreator that inherits from InstrumentCreator and implements the 'CreateInstrument' method.
+class PianoCreator : InstrumentCreator
+{
+    public override Instrument CreateInstrument() => new Piano();
+}
+
+// Create a class named DrumCreator that inherits from InstrumentCreator and implements the 'CreateInstrument' method.
+class DrumCreator : InstrumentCreator
+{
+    public override Instrument CreateInstrument() => new Drum();
+}
